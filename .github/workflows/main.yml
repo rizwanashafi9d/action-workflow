@@ -8,3 +8,6 @@ jobs:
     uses: rizwanashafi9d/reuse-workflow/.github/workflows/reusable.yml@main
   call-markdown-workflow:
     uses: rizwanashafi9d/markitdown/.github/workflows/markitdown.yml@main
+
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.SECRET_PATH }}
