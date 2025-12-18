@@ -7,4 +7,4 @@ on:
 
 jobs:
   call-reusable:
-    uses: https://github.com/rizwanashafi9d/reuse-workflow/blob/main/.github/workflows/reusable.yml@main
+    uses: rizwanashafi9d/reuse-workflow/blob/main/.github/workflows/reusable.yml@main
