@@ -1,9 +1,0 @@
-name: Call Markdown Workflow
-'on':
-  push:
-    branches:
-      - main
-jobs:
-  call-markdown-workflow:
-    uses:
-      rizwanashafi9d/markitdown/blob/main/.github/workflowa/markitdown.yml@main
