@@ -8,3 +8,8 @@ on:
 jobs:
   call-reusable:
     uses: rizwanashafi9d/reuse-workflow/.github/workflows/reusable.yml@main
+    with:
+      # Optional: pass inputs if your reusable workflow needs them
+    secrets:
+      # Pass your PAT so GitHub can read the private repo
+      PERSONAL_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
