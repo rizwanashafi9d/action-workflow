@@ -1,14 +1,10 @@
 name: Main Workflow
-
-on:
+'on':
   push:
     branches:
       - main
-
 jobs:
   call-reusable:
     uses: rizwanashafi9d/reuse-workflow/.github/workflows/reusable.yml@main
-
   call-markdown-workflow:
     uses: rizwanashafi9d/markitdown/.github/workflows/markitdown.yml@main
-
