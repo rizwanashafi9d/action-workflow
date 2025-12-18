@@ -10,5 +10,5 @@ jobs:
     uses: rizwanashafi9d/reuse-workflow/.github/workflows/reusable.yml@main
 
   call-markdown-workflow:
-    uses: rizwanashafi9d/markitdown/blob/4b16d6f04d96e441fbd2b025b4d0094f37941ffe/.github/workflowa/markitdown.yml@main
+    uses: rizwanashafi9d/markitdown/blob/main/.github/workflowa/markitdown.yml@main
 
